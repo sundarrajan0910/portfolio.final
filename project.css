@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    /* background-color: ; */
+
+}
+
+body{
+    width: 100%;
+    background-color:#f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.projectContainer{
+    margin: 1rem;
+    /* border: 1px solid red; */
+}
+.project{
+    margin: 3rem 4.5rem;
+    /* border: 1px solid red; */
+}
+.project .heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+}
+.project h1{
+    width: 70%;
+    font-size: 6rem;
+    font-weight: 700px;
+    text-align: center;
+}
+.project .col{
+    /* width: 100%; */
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 0 1rem;
+    box-shadow: 10px 10px 1px black;
+    margin-bottom: 6rem;
+}
+.project .left{
+    width: 48%;
+    margin-top: 40px;
+}
+ .project .left figure{
+    width: 100%;
+}
+.project .left figure img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.project .right{
+    width: 48%;
+}
+.project h4{
+    color: #b63e96;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.project h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.project p{
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    text-transform: none;
+    margin: 12px 0;
+    text-align: left;
+    width: 90%;
+}
+.project .icon{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+
+}
+.project i{
+    font-size: 35px;
+}
+.project .rt{
+    padding: 12px 26px;
+     margin-left: 20px;
+    background-color: black;
+    border-radius: 8px;
+}
+.project button a{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+.project .cardContainer{
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 0 1rem 6rem;
+}
+.project .card{
+    width: 47%;
+    border: 1px solid black;
+    border-radius: 25px;
+     box-shadow: 10px 10px 1px black;
+     padding: 25px;
+}
+.project .cardHeader{
+    width: 100%;
+}
+.project .cardHeader figure{
+     width: 100%;
+}
+.project .cardHeader figure img{
+    width:100% ;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.project .cardTitle{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.project h4{
+    font-size: 20px;
+    font-weight: 500;
+    /* margin-bottom: 0; */
+    margin-top: 10px;
+}
+.project h2 a{
+    font-size: 30px;
+    font-weight: bold;
+}
+.project .cardContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 8px;
+}
+.project .link{
+    border: none;
+}
+.project .link a{
+    color: black;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .project .col{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .project .left{
+        width: 100%;
+        margin: 0;
+    }
+   .project h1{
+        font-size: 72px;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .project .right{
+        width: 100%;
+    }
+.project{
+    margin: 3rem 2rem;
+}
+.project h2 a{
+    font-size: 24px;
+}
+.project .card{
+    padding: 15px;
+}
+
+
+
+}
+@media screen and (min-width:600px) and (max-width:767px){
+    .project .col{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .project .left{
+        width: 100%;
+        margin: 0;
+    }
+   .project h1{
+        font-size: 72px;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .project .right{
+        width: 100%;
+    }
+.project{
+    margin: 3rem 2rem;
+}
+.project h2 a{
+    font-size: 24px;
+}
+.project .card{
+    padding: 15px;
+}
+
+
+
+}
+@media screen  and (max-width:599px){
+    .project .col{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        margin-bottom: 4rem;
+    }
+    .project .left{
+        width: 100%;
+        margin: 0;
+    }
+   .project h1{
+        font-size: 36px;
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .project .right{
+        width: 100%;
+    }
+.project{
+    margin: 3rem 0rem;
+}
+.project h2 a{
+    font-size: 24px;
+}
+.project .cardContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.project .card{
+    padding: 15px;
+}
+.project .rt{
+    padding: 8px 16px;
+    
+}
+.project h4{
+    font-size: 16px;
+}
+.project h2{
+    font-size: 24px;
+}
+.project p{
+    font-size: 14px;
+}
+.project .rt a{
+    font-size: 16px;
+}
+.project .card{
+    margin-bottom: 4rem;
+    width: 100%;
+}
+.project .heading{
+  
+    margin: 2rem 0;
+}
+
+}

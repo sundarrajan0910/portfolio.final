@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    /* background-color: ; */
+
+}
+
+body{
+    width: 100%;
+    background-color:#f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articleContainer{
+    margin: 1rem;
+    /* border: 1px solid red; */
+}
+.article{
+     margin: 3rem 4.3rem 0;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.article .title{
+    width: 100%;
+     /* border: 1px solid red; */
+}
+.article h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin: 4rem 0;
+}
+.article .cardContainer{
+      width: 100%;
+      height: auto;
+     /* border: 1px solid red; */
+     display: flex;
+     align-items: stretch;
+     justify-content: space-between;
+     /* gap: 30px; */
+     padding: 1.5rem 0rem 5rem ;
+
+}
+.article .card{
+    width: 47%;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+   box-shadow: 13px 13px 2px black;
+}
+.article .cardHead{
+   width: 100%;
+   margin-bottom: 20px;
+}
+.article figure{
+    width: 100%;
+    height: auto;
+}
+.article img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.article .cardBody{
+    width: 100%;
+}
+.article .cardTitle{
+    width: 100%;
+}
+.article .cardTitle a{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    /* text-transform:lowercase; */
+ 
+}
+.article p{
+    width: 100%;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+
+}
+.article h4{
+    color: #b63e96;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    
+    
+
+}
+.article .content{
+    width: 100%;
+    /* border: 1px solid red; */
+    /* margin-top: ; */
+   
+    
+}
+.article .title{
+    width: 100%;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: 2rem 0;
+
+}
+.article .box{
+    width: 100%;
+    margin: 25px 0px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 3px 4px 1px black;
+
+
+}
+.article h2 a{
+    width: 100%;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight:600 ;
+    line-height: 28px;
+    /* border: 1px solid red; */
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    .article  h1{
+        text-align: center;
+        font-size: 4.5rem;
+        margin: 4rem 0 1rem;
+        /* border: 1px solid red; */
+    }
+    .article{
+        margin: 3rem ;
+       /* border: 1px solid red; */
+      
+   }
+  
+
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .article h1{
+        text-align: center;
+        font-size: 4.5rem;
+        margin: 4rem 0 1rem;
+        /* border: 1px solid red; */
+    }
+    .article{
+        margin: 3rem ;
+       /* border: 1px solid red; */
+      
+   }
+
+}
+@media screen and   (max-width:767px){
+    .article h1{
+        text-align: center;
+        font-size: 2.25rem;
+        margin: 0;
+        /* border: 1px solid red; */
+    }
+    .article{
+        margin: 1rem ;
+       /* border: 1px solid red; */
+      
+   }
+   .article .cardContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:  0;
+     /* border: 1px solid red; */
+   }
+   .article .card{
+    width: 100%;
+     /* border: 1px solid red; */
+     margin-bottom: 58px;
+     padding: 18px;
+   }
+   .article .cardTitle a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    /* text-transform:lowercase; */
+ 
+}
+.article p{
+   
+    font-size: 13px;
+  
+
+}
+.article .box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /* text-align: left; */
+}
+.article h2 a{
+    
+    font-size: 16px;
+    
+    line-height: 28px;
+ 
+}
+.article h4{
+   
+    font-size: 14px;
+    /* border: 1px solid red; */
+    
+    
+
+}
+.article .title{
+
+    padding: 0rem 0 2rem;
+
+}
+
+
+
+}
