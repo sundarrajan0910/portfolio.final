@@ -380,7 +380,7 @@ margin-left: 20px;
        
     }
     .navBar  .navLinks{
-        margin-top: 280px;
+        margin-top: 580px;
         width:100% ;
         padding: 140px 0 140px;
         flex-direction: column;
@@ -388,7 +388,7 @@ margin-left: 20px;
         /* border: 1px solid red; */
     }
     .navBar  .icons{
-        margin-top: 380px;
+        margin-top: 680px;
         display: flex;
         align-items: center;
         justify-content: center;
